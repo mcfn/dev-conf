@@ -1,0 +1,21 @@
+[user]
+	name = junliang.feng
+	email = junliang.feng@dena.com
+
+[alias]
+	new = !sh -c 'git log $1@{1}..$1@{0} "$@"'
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --graph
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat --graph 
+	lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+	ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative --graph
+	st = status
+	br = branch
+	ck = checkout
+	al = add -A
+	cm = commit -m
+	recm = commit --amend -m
+[color]
+	ui = auto # convers diff = true, status = true, branch = auto interative = auto
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
