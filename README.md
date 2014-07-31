@@ -1,4 +1,4 @@
-mcfn-conf
+dev-conf
 =========
 
-conf
+Some common config for dev
