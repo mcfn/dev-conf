@@ -1,0 +1,13 @@
+Plugin 'gmarik/vundle'
+Plugin 'The-NERD-Commenter'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'           " file search
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Shougo/neocomplcache.vim' " auto complete
+Plugin 'majutsushi/tagbar'        " outline function
+Plugin 'airblade/vim-gitgutter'   " show git status
+Plugin 'Shougo/neosnippet.vim'    " code snippet
+Plugin 'Shougo/neosnippet-snippets'
+Plugin 'sjl/gundo.vim'            " undo
+
