@@ -1,0 +1,8 @@
+
+# Dev
+CLIENT=~/Documents/NativeSDK
+PORTAL_IOS=$CLIENT/code/MobagePortaliOS
+PORTAL_ANDROID=$CLIENT/code/MobagePortalAndroid
+MOCHA_ANDROID=$CLIENT/code/Mocha-android-master
+
+

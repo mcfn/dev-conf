@@ -1,5 +1,5 @@
 Plugin 'gmarik/vundle'
-Plugin 'The-NERD-Commenter'
+Plugin 'The-NERD-Commenter' " comment option 
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'           " file search
