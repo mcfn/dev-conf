@@ -12,8 +12,8 @@
 	br = branch
 	ck = checkout
 	al = add -A
-	cm = commit -m
-	recm = commit --amend -m
+	cm = commit
+	recm = commit --amend
 [color]
 	ui = auto # convers diff = true, status = true, branch = auto interative = auto
 [filter "media"]
