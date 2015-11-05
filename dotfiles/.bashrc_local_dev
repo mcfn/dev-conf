@@ -1,8 +1,15 @@
 
 # Dev
-CLIENT=~/Documents/NativeSDK
-PORTAL_IOS=$CLIENT/code/MobagePortaliOS
-PORTAL_ANDROID=$CLIENT/code/MobagePortalAndroid
-MOCHA_ANDROID=$CLIENT/code/Mocha-android-master
+client=~/Documents/NativeSDK
+portal_ios=$client/code/MobagePortaliOS
+portal_android=$client/code/MobagePortalAndroid
+mocha=$client/code/Mocha-android-master
 
+shellapp_ios=$client/code/pfsys-nbpf-shellapp-sdk-ios
+shellapp_android=$client/code/pfsys-nbpf-shellapp-sdk-android
+shellapp_sample_server=/Users/junliang.feng/Sites/shellappsdk/pfsys-nbpf-shellapp-sdk-sample-site
+shellapp_test_ios=$client/code/pfsys-swet-shellappsdk-ios-app
+shellapp_test_server=/Users/junliang.feng/Sites/shellappsdk/pfsys-swet-tosute-for-nbpf
 
+# playframework
+PATH=$PATH:/Users/junliang.feng/Downloads/Software/java/activator-1.3.2-minimal

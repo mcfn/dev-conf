@@ -2,5 +2,4 @@
 
 Installation:
 
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-vim +BundleInstall +qall
+Ref. https://github.com/gmarik/Vundle.vim

@@ -5,8 +5,11 @@ set autochdir        " auto set current dir to current file's dir
 set ignorecase smartcase        " ignore up-lower letter when search
 set incsearch        " show search result when inputing search query
 set hlsearch        " highline search result when search
-set smartindent        " when create new line, auto indent
+" set smartindent        " when create new line, auto indent
 set noswapfile	"no swap file"
+set clipboard=unnamed   " yy to clipboard
+
+set paste
 
 set cursorline
 hi CursorLine cterm=NONE ctermbg=8 ctermfg=15
@@ -63,6 +66,7 @@ filetype plugin indent on
 
 set shell=bash
 set autoindent
+set cindent
 set autoread                                                 " reload files when changed on disk, i.e. via `git checkout`
 set backspace=2                                              " Fix broken backspace in some setups
 set backupcopy=yes                                           " see :help crontab
@@ -220,3 +224,5 @@ function! s:my_cr_function()
 
 " toggle outline function
 nmap <F8> :TagbarToggle<CR>
+
+inoremap jj <ESC>

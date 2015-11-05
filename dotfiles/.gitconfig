@@ -1,6 +1,6 @@
 [user]
-	name = junliang.feng
-	email = junliang.feng@dena.com
+	name = junliang-feng
+	email = feng@opentown.cn
 
 [alias]
 	new = !sh -c 'git log $1@{1}..$1@{0} "$@"'
@@ -14,6 +14,8 @@
 	al = add -A
 	cm = commit
 	recm = commit --amend
+    df = diff
+    cp = cherry-pick
 [color]
 	ui = auto # convers diff = true, status = true, branch = auto interative = auto
 [filter "media"]
@@ -22,3 +24,5 @@
 
 [core]
     editor = vim
+[credential]
+	helper = osxkeychain
